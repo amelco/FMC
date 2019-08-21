@@ -2,8 +2,8 @@
 
 typedef enum { false, true } bool;
 
-int euclides(int a,   int b, 
-             int* pa, int* pb)
+int euclides(int a,   int b,    // numeros de entrada
+             int* pa, int* pb)  // ponteiros de saida (novos a e b)
 {   
     int q=0, r=0, aux=0;
     if (b>a) {
