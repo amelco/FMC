@@ -85,6 +85,7 @@ int main(){
     for (int i=0; i<size; i++){
         printf("%10.3lf  %10.3lf  %10.3lf  %10.3lf  \n", vr1[i], vr2[i], vr3[i], vu[i]);
     }
+    printf("\n");
     printf("Distancia entre pontos:         %.3lf\n", d);
     printf("Modulo de vA:                   %.3lf\n", m);
     printf("Produto escalar:                %.3lf\n", r);
